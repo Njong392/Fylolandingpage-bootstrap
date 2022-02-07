@@ -8,8 +8,8 @@
     padding: 0;
 }
 
-body{
-    padding:40px 50px;
+.body{
+    padding:40px 60px;
     margin: auto;
     line-height: 1.5;
 
@@ -46,15 +46,16 @@ header img{
     width: 50%;
 }
 
-header .container{
+.container{
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-family: 'Open Sans', sans-serif;
+    margin-bottom: 50px;
 
 }
 
-header h3{
+h3{
     line-height: 1.5;
     margin-bottom: 10px;
     font-size: 25px;
@@ -62,7 +63,7 @@ header h3{
     
 }
 
-header p{
+ p{
     color:hsl(238, 22%, 44%);
     font-weight: 700;
     margin-bottom: 20px;
@@ -70,3 +71,122 @@ header p{
 
 }
 
+.button-container{
+    display: flex;
+}
+
+
+
+input{
+    padding: 9px;
+    
+}
+
+.input{
+    width: 50%;
+    color: hsl(0, 0%, 75%);
+    border: 1px solid hsl(243, 87%, 12%);
+    border-radius: 2px;
+
+}
+
+.button{
+    width: 30%;
+    margin-left: 10px;
+    background: hsl(224, 93%, 58%);
+    color: white;
+    border-radius: 2px;
+    border: transparent;
+    font-weight: bold;
+}
+
+section img{
+    height: 40%;
+    width: 40%;
+}
+
+.quote{
+    height: 15px;
+    width:15px;
+
+}
+
+ section p {
+    
+    font-size: 13px;
+}
+
+.text{
+    width: 45%;
+}
+
+section a{
+    font-size:13px ;
+    color: hsl(170, 45%, 43%);
+    text-decoration: none;
+    
+}
+
+.icon-container img{
+    height: 8%;
+    width: 8%;
+    margin-bottom: 5px;
+}
+
+.icon-container{
+    display: flex;
+    align-items: center;
+    text-decoration: underline;
+}
+
+.card{
+    
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 20px ;
+    width: 70%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.footer1 p{
+    font-size: 13px;
+    color: white;
+    
+}
+
+footer .container{
+    background-color: hsl(238, 22%, 44%);
+    padding: 40px 60px;
+}
+
+.footer1 h2{
+    color: white;
+    margin-bottom: 10px;
+}
+
+.footer1 .input1{
+    width: 100%;
+    color:hsl(0, 0%, 75%) ;
+    border: transparent;
+}
+
+.inputs{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer1 .input2{
+    width: 50%;
+    margin-top: 10px;
+    border-radius: 2px;
+    border: transparent;
+    font-weight: bold;
+    color: #fff;
+    background: hsl(224, 93%, 58%);
+    
+}
+
+.text p{
+    font-weight: normal;
+    
+}
