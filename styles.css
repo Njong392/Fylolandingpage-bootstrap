@@ -24,7 +24,7 @@
 
 }
 
-ul{
+.nav-links{
     display: flex;
 
 }
@@ -41,9 +41,9 @@ li{
     font-weight: 700;
 }
 
-header img{
-    height: 50%;
-    width: 50%;
+.responsive{
+    height: 80%;
+    width: 80%;
 }
 
 .container{
@@ -71,12 +71,6 @@ h3{
 
 }
 
-.button-container{
-    display: flex;
-}
-
-
-
 input{
     padding: 9px;
     
@@ -100,6 +94,16 @@ input{
     font-weight: bold;
 }
 
+section .container{
+    background-image: url(/images/bg-curve-desktop.svg);
+    background-repeat: no-repeat;
+    padding:40px 60px;
+ 
+    margin-bottom: 0px;
+    background-position: center top;
+    background-size: cover;
+}
+
 section img{
     height: 40%;
     width: 40%;
@@ -113,7 +117,8 @@ section img{
 
  section p {
     
-    font-size: 13px;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .text{
@@ -121,16 +126,16 @@ section img{
 }
 
 section a{
-    font-size:13px ;
+    font-size:14px ;
     color: hsl(170, 45%, 43%);
     text-decoration: none;
     
 }
 
 .icon-container img{
-    height: 8%;
-    width: 8%;
-    margin-bottom: 5px;
+    height: 20px;
+    width: 20px;
+
 }
 
 .icon-container{
@@ -144,8 +149,30 @@ section a{
     margin-top: 20px;
     border-radius: 5px;
     padding: 20px ;
-    width: 70%;
+    width: 50%;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.avatar-container{
+    display: flex;
+
+}
+
+.avatar-container img{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+
+}
+
+.avatar-container p{
+    font-size: x-small;
+}
+
+.avatar-name{
+    font-weight: bolder;
+    margin-bottom:0px;
 }
 
 .footer1 p{
@@ -157,6 +184,8 @@ section a{
 footer .container{
     background-color: hsl(238, 22%, 44%);
     padding: 40px 60px;
+    margin-bottom: 0;
+    height:15rem;
 }
 
 .footer1 h2{
@@ -168,6 +197,7 @@ footer .container{
     width: 100%;
     color:hsl(0, 0%, 75%) ;
     border: transparent;
+    
 }
 
 .inputs{
@@ -188,5 +218,109 @@ footer .container{
 
 .text p{
     font-weight: normal;
+    
+}
+
+.footer2 .container{
+    background: hsl(243, 87%, 12%);
+    height: 18rem;
+    
+}
+
+.footer2 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer .logo-container{
+    display: flex;
+}
+
+.logo-container img{
+    margin-right: 1rem;
+}
+
+.footer2 p{
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+
+
+    header .container{
+        flex-direction:column ;
+        text-align: center;
+        margin-top: 30px;
+        
+    }
+
+
+    img.responsive{
+        
+        height: auto;
+        width: 300px;
+    }
+
+   
+
+
+    .button-container{
+        flex-wrap: wrap;
+    }
+
+    .get-started{
+        width: 50%;
+    }
+
+    section .container{
+        flex-direction: column;
+        text-align: center;
+        padding: 0px;
+        
+    }
+
+    .text{
+        margin-top: 20px;
+    }
+
+    img.responsive2{
+        width: auto;
+        height: 250px;
+        margin-top: 30px;
+    }
+
+    section .card{
+        width: 100%;
+    
+    }
+
+    footer .container{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer1 .container{
+        height: 30rem;
+        
+    }
+
+    .inputs{
+        margin-top:5px;
+    }
+
+    .footer2 .container{
+        height: 30rem;
+        align-items: flex-start;
+        
+    }
+
+    .contact{
+        margin-top: 10px;
+    }
+
+    .about-us{
+        margin: 10px;
+    }
+
     
 }
