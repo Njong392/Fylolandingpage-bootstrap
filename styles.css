@@ -21,11 +21,14 @@
     align-items: center;
     font-family: 'Raleway', sans-serif;
     margin-bottom: 60px;
+    
 
 }
 
+
 .nav-links{
     display: flex;
+    float:left;
 
 }
 
@@ -41,6 +44,13 @@ li{
     font-weight: 700;
 }
 
+.navbar .burger{
+    width: 32px;
+    height:32px;
+    margin-right: 0;
+
+}
+
 .responsive{
     height: 80%;
     width: 80%;
@@ -49,6 +59,7 @@ li{
 .container{
     display: flex;
     justify-content: space-between;
+
     align-items: center;
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 50px;
@@ -97,7 +108,8 @@ input{
 section .container{
     background-image: url(/images/bg-curve-desktop.svg);
     background-repeat: no-repeat;
-    padding:40px 60px;
+    padding: 40px 60px;
+   
  
     margin-bottom: 0px;
     background-position: center top;
@@ -119,10 +131,6 @@ section img{
     
     font-size: 14px;
     font-weight: bold;
-}
-
-.text{
-    width: 45%;
 }
 
 section a{
@@ -188,6 +196,7 @@ footer .container{
     height:15rem;
 }
 
+
 .footer1 h2{
     color: white;
     margin-bottom: 10px;
@@ -200,10 +209,7 @@ footer .container{
     
 }
 
-.inputs{
-    display: flex;
-    flex-wrap: wrap;
-}
+
 
 .footer1 .input2{
     width: 50%;
@@ -244,13 +250,113 @@ footer .logo-container{
     color: #fff;
 }
 
+.bg-modal{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background-color: rgba(0,0,0,0.7);
+    position:absolute;
+    top:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display:none;
+}
+
+.modal-content{
+    width: 500px;
+    height: auto;
+    background-color: #fff;
+    border-radius:5px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    margin: 20px;
+}
+
+.modal-content img{
+    width:20%;
+    margin-top: 30px;
+}
+
+.modal-content input{
+    display: block;
+    margin: 30px auto;
+    width: 80%;
+    height: 40px;
+}
+
+form{
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.modal-content button{
+    background: hsl(224, 93%, 58%);
+    border: transparent;
+    padding:15px;
+    width: 30%;
+    border-radius:30px 30px;
+    float: left;
+    color:#fff;
+    font-weight: bold;
+    margin-left: 37px;
+    }
+
+.modal-content button:hover{
+    background-color: hsl(243, 87%, 12%);
+    color:#fff ;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+
+.close{
+    position: absolute;
+    right:14px;
+    font-size:42px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 768px) {
 
+    .body{
+        padding: 0;
+    }
 
-    header .container{
-        flex-direction:column ;
-        text-align: center;
-        margin-top: 30px;
+  .navbar .container{
+      display: flex;
+      justify-content: space-between;
+      
+      padding: 30px;
+  }
+    
+    .nav-links{
+        display: none;
+    }
+
+    .burger{
+        display: block;
         
     }
 
@@ -261,21 +367,52 @@ footer .logo-container{
         width: 300px;
     }
 
-   
-
-
-    .button-container{
-        flex-wrap: wrap;
+    header .container{
+        flex-direction:column ;
+        text-align: center;
+        margin-top: 30px;
+        padding: 30px;
+        
     }
 
-    .get-started{
-        width: 50%;
+    .div1 .get-started{
+        display: none;
+    }
+
+    .div1 .hidden-button{
+        display: block;
+    }
+
+    .div1 img{
+        margin-bottom: 40px;
+    }
+    
+    .div1:nth-of-type(3){
+        order: 1;
+      
+    }
+
+    .div1:nth-of-type(1){
+        order: 2;
+    
     }
 
     section .container{
         flex-direction: column;
         text-align: center;
-        padding: 0px;
+        padding: 30px;
+        
+        
+    }
+
+    section .icon-container{
+        justify-content: center;
+    }
+
+    .card{
+        width: 80%;
+        text-align: left;
+        margin-bottom: 40px;
         
     }
 
@@ -284,15 +421,10 @@ footer .logo-container{
     }
 
     img.responsive2{
-        width: auto;
-        height: 250px;
-        margin-top: 30px;
+       display: none;
     }
 
-    section .card{
-        width: 100%;
-    
-    }
+
 
     footer .container{
         flex-direction: column;
@@ -300,26 +432,26 @@ footer .logo-container{
     }
 
     .footer1 .container{
-        height: 30rem;
+        height: 22rem;
         
     }
 
     .inputs{
-        margin-top:5px;
+        margin-top:0;
     }
 
     .footer2 .container{
         height: 30rem;
-        align-items: flex-start;
+        text-align: left;
         
+    }
+
+    .about-us{
+        align-items: flex-start;
     }
 
     .contact{
         margin-top: 10px;
-    }
-
-    .about-us{
-        margin: 10px;
     }
 
     
