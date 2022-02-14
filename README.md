@@ -28,14 +28,14 @@ For this challenge, the user should be able to:
 
 ### Screenshot
 
-![](file:///home/njong/Downloads/127.0.0.1_5500_index.html%20(1).png)
+![Desktop view](/Downloads/127.0.0.1_5500_index.html(1).png)
+![Mobile view](/Downloads/Mobile.png)
 
-![](file:///home/njong/Downloads/127.0.0.1_5500_index.html(Samsung%20Galaxy%20S8+).png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://your-solution-url.com)
+- Live Site URL: [Fylo](https://fylolandingpage-bootstrap.vercel.app/))
 
 ## My process
 
@@ -64,8 +64,8 @@ Build more stamina on my javascript, and move forward with it :)
 ## Author
 
 - Website - [Fylo](https://fylolandingpage-bootstrap.vercel.app/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Njong392)
-- Twitter - [@bingeh_afumbom](https://twitter.com/afumbom_bingeh)
+- Frontend Mentor - [@Njong392](https://www.frontendmentor.io/profile/Njong392)
+- Twitter - [@afumbom_bingeh](https://twitter.com/afumbom_bingeh)
 
 
 ## Acknowledgments
