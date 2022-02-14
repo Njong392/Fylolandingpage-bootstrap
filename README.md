@@ -28,8 +28,7 @@ For this challenge, the user should be able to:
 
 ### Screenshot
 
-![Desktop view](/Downloads/127.0.0.1_5500_index.html(1).png)
-![Mobile view](/Downloads/Mobile.png)
+![fylolandingpage-bootstrap vercel app_](https://user-images.githubusercontent.com/81039882/153856861-18a92262-61de-4ce0-b48f-023936c992b3.png)
 
 
 ### Links
