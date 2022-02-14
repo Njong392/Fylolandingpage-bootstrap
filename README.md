@@ -33,8 +33,8 @@ For this challenge, the user should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
-- Live Site URL: [Fylo](https://fylolandingpage-bootstrap.vercel.app/))
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/fylo-landing-page-with-two-column-layout-UqbdlmCap)
+- Live Site URL: [Fylo](https://fylolandingpage-bootstrap.vercel.app/)
 
 ## My process
 
